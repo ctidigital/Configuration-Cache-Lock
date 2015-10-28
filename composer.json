@@ -1,0 +1,13 @@
+{
+  "name": "ctidigital/configuration-cache-lock",
+  "description": "Configuration Cache Lock",
+  "type": "magento-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "CTI Digital",
+      "email": "sales@ctidigital.com"
+    }
+  ],
+  "require": {}
+}
