@@ -459,7 +459,8 @@ class Mage_Core_Model_App
             usleep($ctiCache->getRetryTime());
 
             if ($this->_config->loadModulesCache()) {
-                return $this;
+                include_once BP . DS . 'errors' . DS . '503.php';
+                exit;
             }
         }
         // If the maximum amount of attempts has been reached then stop the request
