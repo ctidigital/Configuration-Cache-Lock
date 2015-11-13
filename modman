@@ -1,2 +1,2 @@
-src/app app
-src/lib lib
+src/app/code/local/Mage/Core/Model/App.php app/code/local/Mage/Core/Model/App.php
+src/lib/Cti/Cache/Cache.php lib/Cti/Cache/Cache.php
